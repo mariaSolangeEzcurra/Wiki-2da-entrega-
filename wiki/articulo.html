@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>artículo</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <form action="./cgi-bin/article.pl" method="POST">
+      <label for="owner">Usuario: </label>
+      <input type="text" name="owner" required><br/>
+      <label for="title">Título: </label>
+      <input type="text" name="title" required><br/>
+      <input type="submit" value="Enviar"/>
+    </form>
+    <hr>
+    <a href="./index.html">Volver a inicio</a>
+  </body>
+</html>
+
